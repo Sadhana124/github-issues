@@ -1,0 +1,78 @@
+.row-data {
+  border: 1px solid #d6d4d4;
+  padding: 10px; }
+  .row-data .title {
+    font-weight: bold; }
+  .row-data .label {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: small; }
+  .row-data .line-2 {
+    color: grey;
+    font-size: small;
+    margin-left: 30px; }
+  .row-data .assignee-avatar {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px; }
+  .row-data .assignee-avatar ~ .assignee-name {
+    visibility: hidden;
+    width: 170px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    margin-top: 20px;
+    /* Position the tooltip */
+    z-index: 1; }
+  .row-data .assignee-avatar:hover ~ .assignee-name {
+    visibility: visible; }
+  .row-data .glyphicon-exclamation-sign {
+    margin-right: 15px; }
+  .row-data .open {
+    color: white;
+    background-color: #28a745; }
+  .row-data .closed {
+    color: white;
+    background-color: #ce0202; }
+  .row-data .glyphicon-comment {
+    margin-left: 20px;
+    color: #9e9d9d; }
+  .row-data .glyphicon-comment:before {
+    padding-right: 3px; }
+
+.row-data:hover {
+  background-color: #f6f8fa; }
+
+.table-header {
+  background-color: #f6f8fa;
+  height: 45px;
+  border: 1px solid #d6d4d4;
+  padding: 10px; }
+  .table-header .dropdown {
+    display: inline;
+    margin-right: 10px; }
+    .table-header .dropdown .glyphicon-ok {
+      margin-left: -10px; }
+  .table-header .dropdown-toggle {
+    border: none;
+    background: #f6f8fa;
+    color: #586069; }
+  .table-header .caret {
+    color: #586069; }
+  .table-header .glyphicon-exclamation-sign {
+    margin-right: 5px;
+    color: #f6f8fa;
+    background-color: black; }
+  .table-header .glyphicon-ok {
+    margin-left: 10px;
+    margin-right: 5px;
+    color: #586069; }
+  .table-header .closed-text {
+    color: #586069; }
+
+.git-issues-table {
+  margin: 5px 100px 5px 100px; }

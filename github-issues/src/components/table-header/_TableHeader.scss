@@ -1,0 +1,41 @@
+.table-header {
+  background-color: #f6f8fa;
+  height: 45px;
+  border: 1px solid #d6d4d4;
+  padding: 10px;
+
+  .dropdown {
+    display: inline;
+    margin-right: 10px;
+    .glyphicon-ok {
+      margin-left: -10px;
+    }
+  }
+
+  .dropdown-toggle {
+    border: none;
+    background: #f6f8fa;
+    color: #586069;
+  }
+
+  .caret {
+    color: #586069;
+  }
+
+  .glyphicon-exclamation-sign {
+    margin-right: 5px;
+    color: #f6f8fa;
+    background-color: black;
+  }
+
+  .glyphicon-ok {
+    margin-left: 10px;
+    margin-right: 5px;
+    color: #586069;
+  }
+
+  .closed-text {
+    color: #586069;
+  }
+
+}

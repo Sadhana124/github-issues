@@ -1,0 +1,70 @@
+.row-data {
+  border: 1px solid #d6d4d4;
+  padding: 10px;
+  .title {
+    font-weight: bold;
+  }
+  .label {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: small;
+  }
+  .line-2 {
+    color: grey;
+    font-size: small;
+    margin-left: 30px;
+  }
+
+  .assignee-avatar {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+  }
+
+  .assignee-avatar ~ .assignee-name {
+    visibility: hidden;
+    width: 170px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    margin-top: 20px;
+
+    /* Position the tooltip */
+    z-index: 1;
+}
+
+.assignee-avatar:hover ~ .assignee-name {
+    visibility: visible;
+}
+
+  .glyphicon-exclamation-sign {
+    margin-right: 15px;
+  }
+
+  .open {
+    color: white;
+    background-color: #28a745;
+  }
+
+  .closed {
+    color: white;
+    background-color: #ce0202;
+  }
+
+  .glyphicon-comment {
+    margin-left: 20px;
+    color: #9e9d9d;
+  }
+
+  .glyphicon-comment:before {
+    padding-right: 3px;
+  }
+}
+
+.row-data:hover {
+  background-color: #f6f8fa;
+}
